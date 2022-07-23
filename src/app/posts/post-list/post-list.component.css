@@ -1,0 +1,55 @@
+.postTime {
+    display: inline-block;
+}
+.invis {
+    margin-left: 60px;
+}
+.delete {
+    margin: 0;
+}
+
+button {
+    font-size: 0.75em;
+    background-color: rgb(246, 147, 147);
+    border-radius: 5px;
+    color: rgb(7, 0, 98);
+}
+.iconTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.postDate {
+    display: inline-block;
+}
+
+.delete {
+    justify-self: flex-end;
+}
+
+.postContainer {
+    background-color: white;
+    width: 40%;
+    border-radius: 25px;
+    padding: 15px;
+    border: 2px solid black;
+}
+
+.postTitle {
+    margin-bottom: 5px;
+    margin-top: 1px;
+}
+
+hr {
+    border: 1px solid black;
+}
+.postAuthor {
+    margin-top: 5px;
+}
+.parent {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,15 @@
+<div class="parent">
+	<div class="postContainer" *ngFor="let post of posts">
+		<div class="iconTitle">
+			<p class="invis"></p>
+			<h4 class="postTitle">{{post.title}}</h4>
+			<p class="delete"><button (click)="deletePost(post.id)">Delete</button></p>
+		</div>
+		<h5 class="postAuthor">From {{post.postAuthor}}</h5>
+		<hr>
+		<p class="postContent">{{post.postContent}}</p>
+		<p class="postDate">Date: {{post.postDate}}&nbsp;&nbsp;&nbsp;</p>
+		<p class="postTime">Time: {{post.postTime}}</p>
+		<p class="idPara" hidden>{{post.id}}</p>
+	</div>
+</div>

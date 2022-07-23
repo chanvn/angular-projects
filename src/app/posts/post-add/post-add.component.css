@@ -1,0 +1,24 @@
+input {
+    border-radius: 10px;
+    margin: 4px;
+    font-size: 0.9em;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    padding: 5px;
+}
+
+button {
+    border-radius: 10px;
+    font-size: 1.0em;
+    padding: 5px;
+    background-color: cadetblue;
+    color: white;
+}
+
+#content {
+    width: 350px;
+}
+
+.completeTitle {
+    font-size: 1.25em;
+}

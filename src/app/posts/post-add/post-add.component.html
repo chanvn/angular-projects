@@ -1,0 +1,9 @@
+<h4 class="completeTitle">Add a Post Here!</h4>
+<div class="inputsContainer">
+	<form ngNativeValidate #postsForm="ngForm" (ngSubmit)="getUserPost(postsForm.value)">
+		<input type="text"  required ngModel name="postAuthor" placeholder="Enter your name"/>
+		<input type="text"  required ngModel name="title" placeholder="Enter post title"/>
+		<input type="text"  id="content" required ngModel name="postContent" placeholder="Enter content"/>
+		<button>Create</button>
+	</form>
+</div>
